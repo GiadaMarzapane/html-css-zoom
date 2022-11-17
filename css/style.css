@@ -80,7 +80,7 @@ main section.flex-container{
     width: calc((100% / 7) - 4px);
     margin-bottom: 5px;
     position: relative;
-    background-image: url('../img/134527268-188ed065-86bc-4f93-88a8-c86fcacd291a.jpg');
+    background-image: url("https://picsum.photos/200/300?grayscale");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;    
