@@ -13,6 +13,10 @@ i{
     color: white;
 }
 
+i:hover{
+    cursor: pointer;
+}
+
 .flex-container{
     display: flex;
 }
