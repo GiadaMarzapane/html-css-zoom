@@ -66,6 +66,40 @@ main{
     background-color: black;
     overflow-y: scroll;
 }
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+main section.flex-container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-user{
+    height: 100px;
+    width: calc((100% / 7) - 4px);
+    margin-bottom: 5px;
+    position: relative;
+    background-image: url('../img/134527268-188ed065-86bc-4f93-88a8-c86fcacd291a.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+
+/* .card-user img{
+    height: 100%;
+} */
+
+.username{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    background-color: rgba(67, 67, 67, 0.6);
+    color: white;
+    font-size: 10px;
+    padding: 4px;
+}
+
 /* REGOLE FOOTER */
 
 footer{
