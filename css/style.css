@@ -6,24 +6,58 @@
 }
 
 /* REGOLE GENERALI */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+i{
+    color: white;
+}
 
 /* REGOLE HEADER */
 header{
     background-color: black;
-    width: 100vw;
+    width: 100%;
     height: 10vh;
+    color: white;
+}
+
+header section{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+}
+
+.header-container{
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    margin: 3px;
+}
+
+.header-container > span{
+    display: inline-block;
+    background-color: rgb(65, 65, 65);
+    padding: 3px;
+    border-radius: 5px;
+    margin: 5px 3px;
+}
+
+#schermo-intero{
+    transform: rotate(45deg);
 }
 
 /* REGOLE MAIN */
 main{
-    width: 100vw;
+    width: 100%;
     height: 80vh;
     background-color: black;
 }
 /* REGOLE FOOTER */
 
 footer{
-    width: 100vw;
+    width: 100%;
     height: 10vh;
     background-color: rgb(29, 29, 29);
 }
