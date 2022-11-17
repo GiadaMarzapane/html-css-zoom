@@ -1,0 +1,29 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE GENERALI */
+
+/* REGOLE HEADER */
+header{
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+}
+
+/* REGOLE MAIN */
+main{
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+}
+/* REGOLE FOOTER */
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(29, 29, 29);
+}
